@@ -3,6 +3,9 @@ To Execute the Project --
 1. pip install requirements.txt
 
 Once you have a DB configured on your local - 
+1. Update the database settings at settings.py, according to your server. 
+
+Run the Application - 
 1. python manage.py makemigrations
 2. python manage.py migrate
 3. python manage.py runserver 
